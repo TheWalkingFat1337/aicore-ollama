@@ -33,7 +33,7 @@ spec:
     spec: |
       predictor:
         imagePullSecrets:
-        - name: dckr_pat_2Zi_NkvF2XQQ2qFgnsoDUdzomFM
+        - name: docker-secret
         minReplicas: 1
         maxReplicas: 1
         containers:
