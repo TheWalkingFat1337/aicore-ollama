@@ -38,7 +38,7 @@ spec:
         maxReplicas: 1
         containers:
         - name: kserve-container
-          image: docker.io/thewalkingfat/ollama:ai-core
+          image: docker.io/thewalkingfat/ollama:v2
           ports:
             - containerPort: 8080
               protocol: TCP
